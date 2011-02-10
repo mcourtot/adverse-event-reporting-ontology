@@ -9,6 +9,6 @@ AERO focuses on signs reported by clinicians as part of adverse event reporting 
 
 The current definition for the term aero:adverse event is "An adverse event is a sign presenting in a predetermined time frame following administration of a compound or usage of a device", where we rely on ogms:sign, itself defined as "A quality of a patient, a material entity that is part of a patient, or a processual entity that a patient participates in, any one of which is observed in a physical examination and is deemed by the clinician to be of clinical significance."
 
-This differentiate the AERO ontology from the AEO ontology developed by the He group and available at http://sourceforge.net/projects/aeo/, in which adverse events are defined as being induced by the medical intervention.
+This differentiate the AERO ontology from the AEO ontology developed by the He group and available at http://sourceforge.net/projects/aeo/, in which adverse events are defined as being caused by the medical intervention.
 
 A discussion pertaining to difference and usage of both resources can be found on the [http://sourceforge.net/mailarchive/forum.php?forum_name=aeo-devel&max_rows=25&style=nested&viewmonth=201102 AEO list]
