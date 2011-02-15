@@ -13,21 +13,12 @@ A discussion pertaining to difference and usage of both resources can be found o
 
 Let us consider the example of a clinician in an institution who follows some guideline and  for that reason reports that a seizure occurred in some patient who was given an immunization a few days earlier. 
 
-The sequence of events is as follow (with notation suggested by Werner Ceusters and based on his Referent Tracking (RT) system):
-
-#1: the immunization
-#2: the patient
-t3: the time at which the immunization was given
-#3: the seizure
-t5: the time the seizure happened
-
-
-AERO describes the seizure happening at that point. Later on, those reported events may be used to generate an hypothesis as to whether the seizure was actually induced by the immunization - this is usually done when reports are forwarded to a committee which will assess causality relationship between the events and establish a degree of causality.
+AERO describes the seizure happening at the reporting time, when no association other than temporal can be established. Later on, those reported events may be used to generate an hypothesis as to whether the seizure was actually induced by the immunization - this is usually done when reports are forwarded to a committee which will assess causality relationship between the events and establish a degree of causality.
 
 In the original driving use case case, clinicians are using specific
-guidelines to describe this seizure, such as [http://www.ncbi.nlm.nih.gov/pubmed/14741144 "Generalized convulsive seizure as an adverse event following
+guidelines to describe this seizure, such as "[http://www.ncbi.nlm.nih.gov/pubmed/14741144 Generalized convulsive seizure as an adverse event following
 immunization: case definition and guidelines for data collection,
-analysis, and presentation."] . In it, the Brighton collaboration specifies a guideline to report seizure as an adverse event following immunization (AEFI). 
+analysis, and presentation.]". In that paper, the Brighton collaboration specifies a guideline to report seizure as an adverse event following immunization (AEFI). 
 
 AERO is a framework allowing to describe seizures as AEFI,
 the guidelines they are associated with (could be Brighton, VAERS or
