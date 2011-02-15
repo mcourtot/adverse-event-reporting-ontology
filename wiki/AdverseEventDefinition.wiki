@@ -11,4 +11,4 @@ The current definition for the term aero:adverse event is "An adverse event is a
 
 This differentiate the AERO ontology from the AEO ontology developed by the He group and available at http://sourceforge.net/projects/aeo/, in which adverse events are defined as being caused by the medical intervention.
 
-A discussion pertaining to difference and usage of both resources can be found on the [http://sourceforge.net/mailarchive/forum.php?forum_name=aeo-devel&max_rows=25&style=nested&viewmonth=201102 AEO list]
+A summary of the difference between AEO and AERO, and advice on when to use one or the other, can be found [http://code.google.com/p/adverse-event-reporting-ontology/wiki/AEROandAEO here].
