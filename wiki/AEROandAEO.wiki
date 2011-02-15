@@ -16,9 +16,9 @@ Let us consider the example of a clinician in an institution who follows some gu
 AERO describes the seizure happening at the reporting time, when no association other than temporal can be established. Later on, those reported events may be used to generate an hypothesis as to whether the seizure was actually induced by the immunization - this is usually done when reports are forwarded to a committee which will assess causality relationship between the events and establish a degree of causality.
 
 In the original driving use case case, clinicians are using specific
-guidelines to describe this seizure, such as "[http://www.ncbi.nlm.nih.gov/pubmed/14741144 | Generalized convulsive seizure as an adverse event following
+guidelines to describe this seizure, such as [http://www.ncbi.nlm.nih.gov/pubmed/14741144 Generalized convulsive seizure as an adverse event following
 immunization: case definition and guidelines for data collection,
-analysis, and presentation.]". In that paper, the Brighton collaboration specifies a guideline to report seizure as an adverse event following immunization (AEFI). 
+analysis, and presentation. In that paper, the Brighton collaboration specifies a guideline to report seizure as an adverse event following immunization (AEFI). 
 
 AERO is a framework allowing to describe seizures as AEFI,
 the guidelines they are associated with (could be Brighton, VAERS or
