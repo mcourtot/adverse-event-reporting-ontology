@@ -13,29 +13,6 @@ A discussion pertaining to difference and usage of both resources can be found o
 
 Let us consider the example of a clinician in an institution who follows some guideline and  for that reason reports that a seizure occurred in some patient who was given an immunization a few days earlier. 
 
-AERO describes the seizure happening at the reporting time, when no association other than temporal can be established. Later on, those reported events may be used to generate an hypothesis as to whether the seizure was actually induced by the immunization - this is usually done when reports are forwarded to a committee which will assess causality relationship between the events and establish a degree of causality.
+AERO describes the event that happened at the reporting time, when no association other than temporal can be established. Later on, those reported events may be used to generate an hypothesis as to whether the seizure was actually induced by the immunization - this is usually done when reports are forwarded to a committee which will assess causality relationship between the events and establish a degree of causality.
 
-In the original driving use case case, clinicians are using specific
-guidelines to describe this seizure, such as [http://www.ncbi.nlm.nih.gov/pubmed/14741144 Generalized convulsive seizure as an adverse event following
-immunization: case definition and guidelines for data collection,
-analysis, and presentation. In that paper, the Brighton collaboration specifies a guideline to report seizure as an adverse event following immunization (AEFI). 
-
-AERO is a framework allowing to describe seizures as AEFI,
-the guidelines they are associated with (could be Brighton, VAERS or
-else), and the specifics of the seizures as described by those
-guidelines (such as degrees of certainty for establishment of a
-diagnostic). 
-
-The goal is to be able to guide the clinician at the time of data
-entry, by making sure that:
-1/ the event they report indeed matches the case definition (such as
-clinician reporting a seizure because he sees A and B - the system
-would ask confirmation "did you see C as well?"),
-2/ we store additional information that they may not have reported
-upon otherwise (such as clinician reporting a seizure because he sees
-A, B and C, but we also know that as it is a seizure there must be a D)
-3/ helping to establish the correct diagnostic based on reported
-symptoms (such as clinician sees A, B and C and let the system infer
-that it is a seizure)
-
-AERO may help in reconciling different reportingsystems, such as Public Health Canada and VAERS - if we describe events based on the respective guidelines being used, a reasoner would be able to infer the hierarchy of those, and we may be able to use this to relate the two datasets.
+AEO describes the adverse event for which causality has been proven to be induced by the medical intervention, where induced means that there is a chain of processes starting with the intervention and resulting in the adverse event. This restriction makes it unfit to annotate data in current reporting systems such as VAERS, MAUDE or the CAEFI database.
