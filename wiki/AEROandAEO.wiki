@@ -1,88 +1,39 @@
 #summary The difference between AERO and AEO
 
-A discussion pertaining to difference and usage of both resources can be found on the [http://sourceforge.net/mailarchive/forum.php?forum_name=aeo-devel&max_rows=25&style=nested&viewmonth=201102 AEO list] 
-
-
 = Introduction =
 
-Add your content here.
+In AERO, the causality between the reported event and the medical intervention is not established. See the current definition of aero:adverse event at http://code.google.com/p/adverse-event-reporting-ontology/wiki/AdverseEventDefinition
+
+This differentiates the AERO ontology from the AEO ontology developed by the He group and available at http://sourceforge.net/projects/aeo/, in which adverse events are defined as being induced by the medical intervention.
+
+A discussion pertaining to difference and usage of both resources can be found on the [http://sourceforge.net/mailarchive/forum.php?forum_name=aeo-devel&max_rows=25&style=nested&viewmonth=201102 AEO list] 
 
 
 = Details =
 
-Adverse event representation is a wide domain, and AERO and AEO aim at covering different aspects.
-WC: let me get matters straight. So the example given by MC was a particular clinician in some institution follows some guideline and  for that reason he reports that a seizure occurred in some patient  who was given an immunization a few days earlier. I proposed to  clarify this example using referent tracking (RT) as in my AE paper.
+Let us consider the example of a clinician in an institution who follows some guideline and  for that reason reports that a seizure occurred in some patient who was given an immunization a few days earlier. 
 
-Several particulars are involved of which the ones most salient for  our purposes are given a unique identifier (that is the principle of  RT). I give the identifiers as closely as possible to what is  written above:
+The sequence of events is as follow (with notation suggested by Werner Ceusters and based on his Referent Tracking (RT) system):
+
 #1: the immunization
 #2: the patient
 t3: the time at which the immunization was given
 #3: the seizure
 t5: the time the seizure happened
 
-using RT, we can then represent matters (simplified because RT  templates require more info to be stated) following the templates  for instance-level relations discussed in the Relation Ontology paper:
 
-#2 participant-of #1 at t3
-#2 participant-of #3 at t5
-t3 earlier t5 (this one can be made more precise in the context of  some guideline, f.i. t3 less-than-4-days-earlier-than t5. Note  further that this is just notational and that it is not done that  way in any practical system. We don’t create a relation for each  extra second that there might be between some events)
+AERO describes the seizure happening at that point. Later on, those reported events may be used to generate an hypothesis as to whether the seizure was actually induced by the immunization - this is usually done when reports are forwarded to a committee which will assess causality relationship between the events and establish a degree of causality.
 
-MC: yes - there are two guidelines involved. One describes the event
-(such as described by the Brighton collaboration), the other describes
-the time-frame in which such an event should present to be reported
-upon, depending on the vaccine that was administered. An example of
-the latter is available at http://vaers.hhs.gov/resources/VAERS_Table_of_Reportable_Events_Following_Vaccination.pdf
-I am not planning on dealing with time interval to start with - time
-information is explicitly specified in the reporting form used by the
-clinicians, so our priority is the event description.
-
-
-Note that at this point, we didn’t make use of any ontology,  although we followed ontological principles in making the  assertions. We only stated how the entities relate to each other. We  did not state what the entities ARE. To do that, we need to resort  to one or more ontologies. We need to find, if we wish at least, for  each particular to which we assigned an identifier, a  representational unit (RU) in some ontology (might be a distinct ontology for each particular) which is defined in such a way that  the definition for that RU is a description which corresponds to what we believe the particular to be. Thus if we find a RU which is labeled ‘immunization’ and that satisfies what #1 is (or is believed  to be), we can further assert:
-
-#1 instance-of immunization
-
-and similarly:
-
-#3 instance-of seizure
-t3 instance-of temporal region
-t5 instance-of temporal region
-#2 instance-of human being at t3 (also at t5. Note that whenever continuants are involved, we need to specify a time. If after the seizure, at t7, the patients dies, it might be that, depending on  how the RU ‘human being’ is defined, #2 is not anymore an instance  of human being, rather an instance of corps. Or it might even be  that according to the ontological theory used – ontological theories  being distinct from ontologies – #2 does not exist anymore, but that  something new started to exist that is-derived-from #2, according to  the definition thereof in RO)
-
-MC: What I need to represent is much earlier on (compared to AEO),  i.e.
-the #3, the seizure reported by the clinician.
-
-WC: the issue is here indeed: from what ontology should the RUs be  drawn. If from some neurology ontology where the RU ‘seizure’ is  defined in terms of what is generally understood by it independent  of what caused it, that statement is unproblematic. If from the AEO  where ‘AEO: seizure’ would stand for a seizure resulting from ...,  then there might be a risk that the statement ‘#3 instance-of  AEO:seizure’ is wrong, but it can also be true. The fact is: it  might, and perhaps, cannot be known at that time. But that does not  change the fact that it is either one or the other.
-I would prefer to take the RU from the cause-independent ontology.
-
-
-MC: I agree. I thought AEO was that cause-independent ontology, due to
-the classes being described using VAERS reports (at which stage as you
-point out we simply don't know), and I believe this is where the
-original misunderstanding was.
-
-Those RUs should come from something like a symptom ontology, where
-they would be defined independently of their cause.
-For the special case I am considering, clinicians are using specific
-guidelines to describe this seizure. In the paper I am here referring
-too, "Generalized convulsive seizure as an adverse event following
+In the original driving use case case, clinicians are using specific
+guidelines to describe this seizure, such as [http://www.ncbi.nlm.nih.gov/pubmed/14741144 "Generalized convulsive seizure as an adverse event following
 immunization: case definition and guidelines for data collection,
-analysis, and presentation." (http://www.ncbi.nlm.nih.gov/pubmed/14741144
-), the Brighton collaboration specifies a guideline to report seizure
-as an adverse event following immunization (AEFI). This guideline
-could still be applied to the description of a non-AEFI seizure; as
-they are vaccine experts they are interested in formalizing
-definitions for AEFI description.
-I will call mc-seizure AEFI:seizure; this being the clinicians term
-and the acronym AEFI indicating that the event follows the injection,
-i.e. there is the temporal association but nothing else.
+analysis, and presentation."] . In it, the Brighton collaboration specifies a guideline to report seizure as an adverse event following immunization (AEFI). 
 
-I aim at creating a framework allowing to describe the AEFI:seizure,
-the guidelines it is associated with (could be Brighton, VAERS or
-else), and the specifics of the seizure as described by those
+AERO is a framework allowing to describe seizures as AEFI,
+the guidelines they are associated with (could be Brighton, VAERS or
+else), and the specifics of the seizures as described by those
 guidelines (such as degrees of certainty for establishment of a
-diagnostic). I may rely on some classes from the Symptom ontology to
-do so, but I would need to extend it in any case. I will need the IAO
-to describe the guideline information, and the OGMS as well (similar
-to what Bill did in his substance intolerance paper)
+diagnostic). 
 
 The goal is to be able to guide the clinician at the time of data
 entry, by making sure that:
@@ -96,60 +47,4 @@ A, B and C, but we also know that as it is a seizure there must be a D)
 symptoms (such as clinician sees A, B and C and let the system infer
 that it is a seizure)
 
-Later on, the idea would also be able to reconcile two reporting
-systems, such as Public Health Canada and VAERS - if we describe
-events based on the respective guidelines being used, a reasoner would
-be able to infer the hierarchy of those, and we may be able to use
-this to relate the two datasets.
-
-
-MC: We also agreed that we are not talking about the same thing when using
-the label "adverse event" - as per the above, I am talking about #3
-("event reported in a specific timeframe post vaccination" for
-example), while AEO talks about events for which causality has been
-proven - which, if it happens, happens much later at #6.
-WC: correct, but note that when it is proven, #3 does not “become”  an AEO: seizure. It was an instance thereof from the very beginning.
-
-MC: I agree. The nature of the seizure doesn't change with time, what
-we know about it may.
-
-
-
-MC: AEO will work on formalizing that #6 hypothesis statement, while I
-will focus on the best way to represent #3 (which based on what Werner
-said would be closer to what he calls a RAPS event).
-
-WC: yes, but ‘RAPS event’ being the RU for a defined class, not for  a universal. This is because a fiat, arbitrary boundary is drawn  between events that are reported, and events that are not. Being  reported upon is not a characteristic of an event. It is not because  I am looked at or talked about by somebody that I acquire an  additional feature (making abstraction of an occasional blush).
-
-MC: Yes. You may have seen in the proposal I sent originally that
-AEFI:seizure is a defined class.
-It is a seizure (which could be coming in from a symptom ontology) and
-an AEFI, where AEFI is defined as a sign (i.e., being observed by the
-clinician) and presenting in a predetermined time frame following
-administration of a coumpound or usage of a device. I should probably
-make the "reported" element more explicit, I had taken it as implicit
-from "being observed by the clinician". AEFI would therefore be
-defined as "a sign presenting in a predetermined time frame following
-administration of a coumpound or usage of a device and being reported
-by the clinician". I need to work more on formalizing the reporting
-part, building under IAO to do so. I would be happy to hear any
-suggestion you may have to do so.
-
-
-MC: To that effect I will develop a framework dealing with those reporting
-systems and guidelines used to do so, such as specific Public Health
-Canada guideline which says for example "for vaccine X, you should
-report anything happening between 2 and 4 days post immunization" and
-the Brighton guidelines, which describe a seizure as an adverse event
-following immunization (in the mc-adverse-event sense)
-WC: that is a very sensible thing to do
-
-MC: We will later on try and reconcile the 2 resources - I was  mentioning
-that in my opinion the elements AEO is currently dealing with will be
-a subset of what I am interested in, and we should be able to plug
-both together at a later stage.
-WC: that is an implementation issue. What would be more accurate to  say is this: if the particular events that are instances of wc- adverse-event are represented as members of a set S1 and the  particular events that are instances of mc-adverse-event are  represented as members of a set S2, then S1 is a subset of S2.
-
-MC: Yes, probably something along the lines of AEO:seizure equivalent
-to "AEFI:seizure and causality hypothesis confirmed" - to be discussed
-later once we have both components.
+AERO may help in reconciling different reportingsystems, such as Public Health Canada and VAERS - if we describe events based on the respective guidelines being used, a reasoner would be able to infer the hierarchy of those, and we may be able to use this to relate the two datasets.
