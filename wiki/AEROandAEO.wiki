@@ -1,0 +1,16 @@
+#summary The difference between AERO and AEO
+
+A discussion pertaining to difference and usage of both resources can be found on the [http://sourceforge.net/mailarchive/forum.php?forum_name=aeo-devel&max_rows=25&style=nested&viewmonth=201102 AEO list] 
+
+
+= Introduction =
+
+Add your content here.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
