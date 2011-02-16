@@ -17,7 +17,7 @@ In `[1]`, the Institute of Medecine details the causality evidence found between
  # The evidence establishes a causal relation
 depending on the supporting evidence (biological plausibility, case reports, case series and uncontrolled observational studies)
 
-An interesting discussion on causality and evidence can be found in the book `[2]`. The committee concludes that most of the adverse events have multifactorial etiologies. In `[3]` Kramer and Lane discuss what is causality, what are necessary and sufficient causes, and how to appreciate the retrodictive ("_Did it?_" - in one individual exhibiting the adverse event, was it caused by the medical intervention?), potential ("_Can it?_" - can the medical intervention cause the adverse event?) and predictive ("_Will it?_" - will the next person after the same intervention have the same adverse event?) causal propositions. 
+An interesting discussion on causality and evidence can be found in the book `[2]`, in which the committee concludes that most of the adverse events have multifactorial etiologies. In `[3]` Kramer and Lane discuss what is causality, what are necessary and sufficient causes, and how to appreciate the retrodictive ("_Did it?_" - in one individual exhibiting the adverse event, was it caused by the medical intervention?), potential ("_Can it?_" - can the medical intervention cause the adverse event?) and predictive ("_Will it?_" - will the next person after the same intervention have the same adverse event?) causal propositions. 
 
 
 
