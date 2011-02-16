@@ -8,3 +8,20 @@ AERO focuses on signs reported by clinicians as part of adverse event reporting 
 = Details =
 
 The current definition for the term aero:adverse event is "An adverse event is a sign presenting in a predetermined time frame following administration of a compound or usage of a device", where we rely on ogms:sign, itself defined as "A quality of a patient, a material entity that is part of a patient, or a processual entity that a patient participates in, any one of which is observed in a physical examination and is deemed by the clinician to be of clinical significance."
+
+In [1], the Institute of Medecine details the causality evidence found between reported adverse events and vaccines, and classified them into categories of plausible causality in between as follow:
+1. No evidence bearing on a causal relation
+2. The evidence is inadequate to accept or reject a causal relation
+3. The evidence favors rejection of a causal relation
+4. The evidence favors acceptance of a causal relation
+5. The evidence establishes a causal relation
+depending on the supporting evidence (biological plausibility, case reports, case series and uncontrolled observational studies)
+
+An interesting discussion on causality and evidence can be found in the book [2]. The committee concludes that most of the adverse events have multifactorial etiologies
+
+
+
+
+
+[1] Stratton KR, Howe CJ, Johnson RB Jr. Adverse events associated with childhood vaccines other than pertussis and rubella: summary of a report from the Institute of Medicine. JAMA. 1994; 271(20): 1602–1605 
+[2] Stratton KR, Howe CJ, Johnston RB Jr, eds. Adverse events associated with childhood vaccines: evidence bearing on causality. Washington, D.C.: National Academy Press, 1994:464.
