@@ -24,5 +24,7 @@ An interesting discussion on causality and evidence can be found in the book `[2
 
 
 `[1]` Stratton KR, Howe CJ, Johnson RB Jr. Adverse events associated with childhood vaccines other than pertussis and rubella: summary of a report from the Institute of Medicine. JAMA. 1994; 271(20): 1602–1605 
+
 `[2]` Stratton KR, Howe CJ, Johnston RB Jr, eds. Adverse events associated with childhood vaccines: evidence bearing on causality. Washington, D.C.: National Academy Press, 1994:464.
+
 `[3]` Kramer MS, Lane DA. Causal propositions in clinical research and practice. J Clin Epidemiol. 1992; 45:639-49. 
