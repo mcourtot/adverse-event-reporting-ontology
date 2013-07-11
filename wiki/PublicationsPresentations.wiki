@@ -21,4 +21,4 @@ Add your content here.  Format your content with:
  * 2012, March: Adverse events following immunization: standardization, automatic case classification and signal detection, Thursday Trainee Seminar Series, BC Cancer Research Centre, Vancouver, Canada
  * 2012, February:[http://www.slideshare.net/mcourtot/courtot-cshals2012 Adverse events following immunization: standardization, automatic case classification and signal detection], Conference on Semantics in Healthcare and Life Sciences (CSHALS) 2012, Boston, USA
  * 2011, July: [http://www.slideshare.net/mcourtot/towards-an-adverse-event-reporting-ontology-8962199 Towards an adverse event reporting ontology], ICBO 2011, Buffalo, US 
- * 2011, April: [[http://www.slideshare.net/mcourtot/towards-an-adverse-event-reporting-ontology Towards an adverse event reporting ontology], PCIRN AGM, Ottawa, CA
+ * 2011, April: [http://www.slideshare.net/mcourtot/towards-an-adverse-event-reporting-ontology Towards an adverse event reporting ontology], PCIRN (Public Health Agency of Canada / Canadian Institutes of Health Research Influenza Research Network) AGM, Ottawa, CA
