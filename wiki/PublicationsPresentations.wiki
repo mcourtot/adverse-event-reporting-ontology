@@ -15,7 +15,7 @@ Add your content here.  Format your content with:
 = Presentations =
 
  * 2013, July: [http://www.slideshare.net/mcourtot/20130708-courtotearlycareer Diagnostic criteria and clinical guidelines standardization to automate case classification],  International Conference on Biomedical Ontologies (ICBO) 2013, Montreal, Canada
- * 2013, March: [[http://www.slideshare.net/mcourtot/20130321-kt-sseminarbis] Enabling faster analysis of vaccine adverse event reports with ontology support, Knowledge Translation Seminar, March 2013, Vancouver, Canada
+ * 2013, March: [http://www.slideshare.net/mcourtot/20130321-kt-sseminarbis Enabling faster analysis of vaccine adverse event reports with ontology support], Knowledge Translation Seminar, March 2013, Vancouver, Canada
  * 2012, July: Adverse Event reporting Ontology (AERO), Vaccine and Drug Ontology in the Study of Mechanism and Effect (VDOSME 2012) workshop, Graz, Austria
  * 2012, July: [http://www.slideshare.net/mcourtot/icbo2012-flash-talk ICBO 2012 Flash talk]
  * 2012, March: Adverse events following immunization: standardization, automatic case classification and signal detection, Thursday Trainee Seminar Series, BC Cancer Research Centre, Vancouver, Canada
