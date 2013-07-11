@@ -6,9 +6,9 @@ This page centralizes links towards presentations and publications about the AER
 
 
 = Publications =
- * Diagnostic criteria and clinical guidelines standardization to automate case classification, Proceedings of the International Conference on Biomedical Ontologies (ICBO) 2013
- * Knowledge representation in Health Research: the modeling of Adverse Events Following Immunization, Proceedings of the International Conference on Biomedical Ontologies (ICBO) 2012
- * Mélanie Courtot, Ryan R.Brinkman and Alan Ruttenberg. “Reporting Adverse Events: Basis for a Common Representation” Proceedings of the International Conference on Biomedical Ontologies (ICBO) 2011, http: // icbo. buffalo. edu/
+ * [http://www.unbsj.ca/sase/csas/data/ws/icbo2013/papers/ec/icbo2013_submission_57.pdf Diagnostic criteria and clinical guidelines standardization to automate case classification], Proceedings of the International Conference on Biomedical Ontologies (ICBO) 2013
+ * Knowledge representation in Health Research: the modeling of Adverse Events Following Immunization, Proceedings of the International Conference on Biomedical Ontologies (ICBO) 2012, http://ceur-ws.org/Vol-897/
+ * Mélanie Courtot, Ryan R.Brinkman and Alan Ruttenberg. “Reporting Adverse Events: Basis for a Common Representation” Proceedings of the International Conference on Biomedical Ontologies (ICBO) 2011, http://icbo.buffalo.edu/
 
 = Presentations =
 
