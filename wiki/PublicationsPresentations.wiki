@@ -1,0 +1,22 @@
+#summary Publications and Presentations of the AERO project
+
+= Introduction =
+
+This page centralizes links towards presentations and publications about the AERO project.
+
+
+= Publications =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
+
+= Presentations =
+
+ * 2013, July: Diagnostic criteria and clinical guidelines standardization to automate case classification,  International Conference on Biomedical Ontologies (ICBO) 2013, Montreal, Canada
+ * 2012, July: Adverse Event reporting Ontology (AERO), Vaccine and Drug Ontology in the Study of Mechanism and Effect (VDOSME 2012) workshop, Graz, Austria
+ * 2012, March: Adverse events following immunization: standardization, automatic case classification and signal detection, Thursday Trainee Seminar Series, BC Cancer Research Centre, Vancouver, Canada
+ * 2012, February: Adverse events following immunization: standardization, automatic case classification and signal detection, Conference on Semantics in Healthcare and Life Sciences (CSHALS) 2012, Boston, USA
+ * 2011, July: Towards an adverse event reporting ontology, ICBO 2011, Buffalo, US [http://www.slideshare.net/mcourtot/towards-an-adverse-event-reporting-ontology-8962199 link]
+ * 2011, April: Towards an adverse event reporting ontology, PCIRN AGM, Ottawa, CA [http://www.slideshare.net/mcourtot/towards-an-adverse-event-reporting-ontology link]
