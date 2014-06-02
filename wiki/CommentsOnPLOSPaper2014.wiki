@@ -1,6 +1,8 @@
 #summary Addressing comments on the PLOS paper 2014
 
-= Introduction =
+= Response to comment on the paper [http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0092632 The Logic of Surveillance Guidelines: An Analysis of Vaccine Adverse Event Reports from an Ontological Perspective ] =
+
+Melanie Courtot, Ryan R. Brinkman and Alan Ruttenberg
 
 We are grateful to Drs. Botsis, Woo and Ball for their comment on our article, and the opportunity to address their questions. We entirely agree on the importance of improving automated analysis of safety data, and we would have welcomed the opportunity to reuse their data. However, our multiple FOIA requests, beginning in May 2012, to obtain the complete datasets from the multiple published works to allow us to directly compare our approach with theirs were unsuccessful. Our correspondence eventually culminated in May 2013 with a response that “After a thorough and diligent investigation, CBERs search did not locate a record that contains the MedDRA terms for the VAERS identification numbers that were the subject of this paper or any document responsive to your request for the list of those records that are the 100 confirmed anaphylaxis cases”. This may cause slight differences in the exact numerical values being compared, and where applicable we attempted to infer possible causes, as stated in Reference 1: “However details of the original analysis approach necessary for reproducing the original results were not made available and we could only hypothesize the cause of results we obtained that were not in concordance with the original publication.” We also added specific mentions of differences (for example, in the legend of Table 2) when we were able to form such a hypothesis.
 
